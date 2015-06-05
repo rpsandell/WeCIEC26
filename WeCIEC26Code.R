@@ -114,9 +114,3 @@ CeRC.roots.frame <- as.data.frame(CeRC.roots.table) # 426 rows
 
 CRC.matrix <- matrix(c(32, 972, 637, 7500), nrow=2)
 chisq.test(CRC.matrix)
-
-# Comparing plc.man. to CRC
-#plc.man.CRC.matrix <- matrix(c(6.5, 81, 32, 972), nrow=2)
-#chisq.test(plc.man.CRC.matrix)
-
-# Using co-occurrence restrictions to determine place and manner of articulation of largyngeals!
